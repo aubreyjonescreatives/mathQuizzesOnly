@@ -1,0 +1,58 @@
+{
+    "quizQuestions": [
+    {
+        "thequestion": "Question 1:  Find the absolute value of the integer:", 
+        "questionDetail": "| -9 |",
+        "response1": "-9", 
+        "response2": "9", 
+        "response3": "0",
+        "correctResponse": ""
+    }, 
+    {
+        "thequestion": "Question 2:  Find the absolute value of the integer:", 
+        "questionDetail": "| 4 | ⦁ | -7 |",
+        "response1": "28", 
+        "response2": "-28", 
+        "response3": "-3",
+        "correctResponse": ""
+    }, 
+    {
+        "thequestion": "Question 3:  Find the absolute value of the integer:", 
+        "questionDetail": "| 4 ⦁ 2 (5 -3) +9 |",
+        "response1": "76", 
+        "response2": "-37", 
+        "response3": "37",
+        "correctResponse": ""
+    },
+    {
+        "thequestion": "Question 4: Add:", 
+        "questionDetail": "-17 + 4",
+        "response1": "-21", 
+        "response2": "-13", 
+        "response3": "21",
+        "correctResponse": ""
+    },
+
+    {
+        "thequestion": "Question 5: Add:", 
+        "questionDetail": "6 + (-7)",
+        "response1": "-1", 
+        "response2": "1", 
+        "response3": "-13",
+        "correctResponse": ""
+    },
+
+    {
+        "thequestion": "Question 6: Add:", 
+        "questionDetail": "-2.79 + (-1.43)",
+        "response1": "-4.22", 
+        "response2": "-1.36", 
+        "response3": "4.22",
+        "correctResponse": ""
+    }
+    
+    ]
+    
+    
+    }
+

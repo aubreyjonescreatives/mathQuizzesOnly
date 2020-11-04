@@ -1,0 +1,383 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+
+ /* -----------------------BODY ------------------------------- */ 
+
+header, nav, main, footer {max-width: 75rem; font-family: "lato";}
+
+
+
+body{
+    font-family: $defaultFont; 
+    font-weight: $normalWeight; 
+    font-size: 16px; 
+    
+}
+
+/* ------------------------HEADER----------------------------- */
+
+
+
+div#wrapperHeader {
+    background-color: $thirdColor;
+    height: 100px;
+    box-shadow: 2px 2px 10px 0px #666666; 
+    margin-bottom: 30px; 
+    z-index: -2; 
+}
+
+
+header { 
+    height: 100px; 
+    background-color: $thirdColor; 
+    
+
+
+
+.quiznameHeader {
+    clear: both;
+    text-align: center;     
+    font-size: 24px; 
+    color: $primaryColor; 
+    position: relative; 
+    top: -60px; 
+
+}
+
+
+.profileImage {
+    clear: both; 
+    color: $primaryColor;  
+    z-index: 1;  
+    position: relative;   
+    top: -97px;
+    right: 275px;  
+    float: right; 
+
+    .material-icons.md-48 {font-size: 52px;}
+
+
+}
+
+
+    
+.exitQuiz {
+    clear: both; 
+    border-color: $primaryColor; 
+    background-color: $thirdColor; 
+    padding: 10px; 
+    color: $primaryColor; 
+    position: relative; 
+    top: -147px;
+    right: 125px; 
+    margin-right: 20px; 
+    float: right;
+    font-size: 16px;  
+
+a:hover, a:active {
+    background-color: $primaryColor; 
+    color: $thirdColor; 
+
+
+} 
+
+
+}
+
+.saveQuiz {
+    clear: both; 
+    border-color: $primaryColor; 
+    background-color: $primaryColor; 
+    padding: 10px; 
+    color: $thirdColor; 
+    position: relative; 
+    top: -189px;
+    margin-right: 20px; 
+    float: right;
+    font-size: 16px;
+
+    a:hover, a:active {
+        background-color: $thirdColor; 
+        color: $primaryColor; 
+    
+    
+    } 
+
+
+
+
+
+}
+
+
+
+
+
+
+
+} // end of header
+
+
+
+
+
+
+
+
+/* ------------------------MAIN----------------------------- */
+
+main {
+    //min-height: 20rem;
+    padding: 1rem 2%;
+    //display: grid; 
+    //grid-template-columns: 1fr 1fr 1fr 1fr;
+    //grid-column-gap: 10px;
+    //grid-row-gap: 10px;  
+    
+     
+    .quizName {
+        clear: both; 
+        text-align: center;  
+        font-size: 24px;  
+        color: $primaryColor; 
+        padding: 20px; 
+    
+    } 
+
+
+
+/* ------------------------NAVIGATION----------------------------- */
+
+
+
+div#wrapperNav { 
+    clear: both; 
+    background-color: $thirdColor;
+     
+     
+         
+}
+
+.quizNav {   
+  width: 100%; 
+       
+  
+ul { 
+    
+      
+    
+
+li {
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+    margin: 10px; 
+    padding: 10px;  
+    text-align: center; 
+    width: 20%;
+
+a {
+    
+ 
+ 
+
+
+a:hover, a:active {
+        background-color: $primaryColor; 
+        color: $thirdColor;
+
+
+} 
+
+
+}
+
+}
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+    
+ // end nav
+
+
+h2 {
+    font-size: .5rem; 
+    margin: .75rem 0 0 0; 
+    color: lighten( $primaryColor, 10% ); 
+} // end h2
+
+
+h3 {
+    font-size: 1.2rem; 
+    color: lighten( $primaryColor, 20%); 
+    
+} // end h3
+
+
+p {
+    font-size: 1.2rem; 
+    color: $thirdColor; 
+    margin: 10px; 
+    
+}  // end p
+
+
+
+.questionStyle {
+    padding: 20px 0px; 
+    font-size: 20px; 
+    color: $primaryColor; 
+    text-align: left;  
+
+}
+
+.allButtons {
+    margin: 0px auto; 
+    margin-top: 20px; 
+    width: 100%;
+
+
+    .answerButton { 
+        padding: 10px 30px; 
+        width: 27%;  
+        background-color: $primaryColor; 
+        color: white; 
+        font-size: 20px; 
+    }
+    
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+.feedback {
+    font-size: 24px; 
+    margin: 50px; 
+
+
+}
+
+
+/*----------------Column Layout -------------*/
+
+//.row {margin-top: 50px; }
+
+//.column{
+//  -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+//  -moz-column-gap: normal; /* Firefox */
+  
+ 
+//}
+
+//@for $i from 1 through 12 {
+//    $w: ($i / 12) * 100%;
+//    .small-#{$i} {width: $w; float: left;}
+    
+// }
+
+
+
+
+
+
+
+
+}
+
+
+
+/* ------------------------FOOTER----------------------------- */
+
+div#wrapperFooter {
+    background-color: $thirdColor;
+    z-index: 999;
+    box-shadow: 2px 2px 10px 0px #666666; 
+    height: 75px; 
+}
+
+
+
+
+footer {
+    background-color: $thirdColor; 
+    height: 75px;   
+    
+   
+    
+    p {  
+      color: $footerfontColor; 
+      padding: 2rem 0;     
+      font-size: .9rem;
+      text-align: center; 
+     
+      p a {
+        color: $footerfontColor;  
+         
+     } 
+
+     
+        
+    }  // end p 
+    
+   
+    
+/*    
+   
+div.apple { grid-row: 1; grid-column: 1; align-self: start; } 
+div.pear { grid-row: 2; grid-column: 1; }     
+div.banana { grid-row: 3; grid-column: 1; }  
+div.plum { grid-row: 4; grid-column: 1; }        
+    
+ */   
+    
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+/* ------------------------Clearfix: Force an Element not to collapse----------------------------- */
+ 
+    .clearfix:after {
+        content: ""; 
+        display: table; 
+        
+        
+    }    
+    
+
+
+
+
+
