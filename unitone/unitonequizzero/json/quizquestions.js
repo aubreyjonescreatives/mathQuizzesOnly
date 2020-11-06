@@ -1,7 +1,4 @@
-
-
-{
- "quizQuestions" : [
+export const quizQuestions = [
     { 
       "number": "Question 1",
       "question": "Find the absolute value of the integer:", 
@@ -83,7 +80,5 @@
     
     
     ]
-
-}
     
     
