@@ -25,40 +25,182 @@ async function getQuizData() {
 
 
 
+document.querySelector('#nameofQuiz').innerText = `Unit 1 Lesson 1 Quiz`
 
-let quizQs = document.querySelectorAll("a") 
 
-quizQs.forEach(element => {
-
-    
-element.addEventListener('click', quizInfo)
-
-    
-})
 
 
 let quizData = {}
 getQuizData().then(data => quizData = data)
 
 
-function quizInfo(event){
+
+
+
+document.querySelector('#number1').textContent = `${number1}`
+document.querySelector('#question1').textContent = `${question1}`
+document.querySelector('#questionDetail1').textContent = `${questionDetail1}`
+document.querySelector('#answer1').textContent = `${answers1.a}`
+document.querySelector('#answer2').textContent = `${answers1.b}`
+document.querySelector('#answer3').textContent = `${answers1.c}`
+
+
+
+//let quizQuestion1 = document.querySelector
+
+//quizQs.forEach(element => {
+
+    
+//element.addEventListener('click', quizInfo)
+
+    
+//})
+
+
+/*
+function question1(event){
    let quizChoice = quizData.quizQuestions.find(quizquestions => {
-       return event.target.id === quizquestions.number.toLowerCase()
+       return event.target.id === quizquestions.number1.toLowerCase()
        
        
     }) 
     console.log(quizChoice)
 
 
-    document.querySelector('#questionNumber').textContent = `${quizChoice.number}`
-    document.querySelector('#question').textContent = `${quizChoice.question}`
-    document.querySelector('#questionDetail').textContent = `${quizChoice.questionDetail}`
-    document.querySelector('#answer1').textContent = `${quizChoice.answers.a}`
-    document.querySelector('#answer2').textContent = `${quizChoice.answers.b}`
-    document.querySelector('#answer3').textContent = `${quizChoice.answers.c}`
+    document.querySelector('#number1').textContent = `${quizChoice.number1}`
+    document.querySelector('#question1').textContent = `${quizChoice.question1}`
+    document.querySelector('#questionDetail1').textContent = `${quizChoice.questionDetail1}`
+    document.querySelector('#answer1').textContent = `${quizChoice.answers1.a}`
+    document.querySelector('#answer2').textContent = `${quizChoice.answers1.b}`
+    document.querySelector('#answer3').textContent = `${quizChoice.answers1.c}`
 
 
   }
+
+  
+  document.querySelector('#question_1').addEventListener('click', () => question1() )
+
+
+/*
+  function question2(event){
+    let quizChoice = quizData.quizQuestions.find(quizquestions => {
+        return event.target.id === quizquestions.number2.toLowerCase()
+        
+        
+     }) 
+     console.log(quizChoice)
+ */
+ 
+ //    document.querySelector('#questionNumber2').textContent = `${number2}`
+ //    document.querySelector('#question2').textContent = `${question2}`
+ //    document.querySelector('#questionDetail2').textContent = `${questionDetail2}`
+ //    document.querySelector('#answer1').textContent = `${answers2.a}`
+  //   document.querySelector('#answer2').textContent = `${answers2.b}`
+   //  document.querySelector('#answer3').textContent = `${answers2.c}`
+ 
+ 
+   //}
+
+
+   //document.querySelector('#answer1').addEventListener('click', () => question2() )
+
+/*
+
+   function question3(event){
+    let quizChoice = quizData.quizQuestions.find(quizquestions => {
+        return event.target.id === quizquestions.number3.toLowerCase()
+        
+        
+     }) 
+     console.log(quizChoice)
+ 
+ 
+     document.querySelector('#questionNumber3').textContent = `${quizChoice.number3}`
+     document.querySelector('#question3').textContent = `${quizChoice.question3}`
+     document.querySelector('#questionDetail3').textContent = `${quizChoice.questionDetail3}`
+     document.querySelector('#answer1').textContent = `${quizChoice.answers3.a}`
+     document.querySelector('#answer2').textContent = `${quizChoice.answers3.b}`
+     document.querySelector('#answer3').textContent = `${quizChoice.answers3.c}`
+ 
+ 
+   }
+/*
+   
+   document.querySelector('#answer1').addEventListener('click', () => question3() )
+
+
+   
+   function question4(event){
+    let quizChoice = quizData.quizQuestions.find(quizquestions => {
+        return event.target.id === quizquestions.number4.toLowerCase()
+        
+        
+     }) 
+     console.log(quizChoice)
+ 
+ 
+     document.querySelector('#questionNumber4').textContent = `${quizChoice.number4}`
+     document.querySelector('#question4').textContent = `${quizChoice.question4}`
+     document.querySelector('#questionDetail4').textContent = `${quizChoice.questionDetail4}`
+     document.querySelector('#answer1').textContent = `${quizChoice.answers4.a}`
+     document.querySelector('#answer2').textContent = `${quizChoice.answers4.b}`
+     document.querySelector('#answer3').textContent = `${quizChoice.answers4.c}`
+ 
+ 
+   }
+
+
+   document.querySelector('#answer1').addEventListener('click', () => question4() )
+
+
+
+   function question5(event){
+    let quizChoice = quizData.quizQuestions.find(quizquestions => {
+        return event.target.id === quizquestions.number5.toLowerCase()
+        
+        
+     }) 
+     console.log(quizChoice)
+ 
+ 
+     document.querySelector('#questionNumber5').textContent = `${quizChoice.number5}`
+     document.querySelector('#question5').textContent = `${quizChoice.question5}`
+     document.querySelector('#questionDetail5').textContent = `${quizChoice.questionDetail5}`
+     document.querySelector('#answer1').textContent = `${quizChoice.answers5.a}`
+     document.querySelector('#answer2').textContent = `${quizChoice.answers5.b}`
+     document.querySelector('#answer3').textContent = `${quizChoice.answers5.c}`
+ 
+ 
+   }
+
+
+   document.querySelector('#answer1').addEventListener('click', () => question5() )
+
+
+   function question6(event){
+    let quizChoice = quizData.quizQuestions.find(quizquestions => {
+        return event.target.id === quizquestions.number6.toLowerCase()
+        
+        
+     }) 
+     console.log(quizChoice)
+ 
+ 
+     document.querySelector('#questionNumber6').textContent = `${quizChoice.number6}`
+     document.querySelector('#question6').textContent = `${quizChoice.question6}`
+     document.querySelector('#questionDetail6').textContent = `${quizChoice.questionDetail6}`
+     document.querySelector('#answer1').textContent = `${quizChoice.answers6.a}`
+     document.querySelector('#answer2').textContent = `${quizChoice.answers6.b}`
+     document.querySelector('#answer3').textContent = `${quizChoice.answers6.c}`
+ 
+ 
+   }
+
+
+   document.querySelector('#answer1').addEventListener('click', () => question6() )
+
+
+/*
 
 
   let possibilities = document.querySelectorAll("#choices") 
@@ -174,4 +316,4 @@ function responseFeatures3() {
 
 document.querySelector('#answer3').addEventListener('click', () => responseFeatures3() )
 
-
+*/

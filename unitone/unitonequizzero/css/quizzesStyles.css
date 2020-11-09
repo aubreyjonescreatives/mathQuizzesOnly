@@ -127,9 +127,51 @@ header .material-icons {
 
 /* ------------------------MAIN----------------------------- */
 main {
-  padding: 1rem 2%;
+  /*---------------------Side Nav----------------------------*/
+  /* Fixed sidenav, full height */
+  /* Style the sidenav links and the dropdown button */
+  /* On mouse-over */
+  /* Add an active class to the active dropdown button */
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  /* Optional: Style the caret down icon */
   /* ------------------------NAVIGATION----------------------------- */
   /*----------------Column Layout -------------*/ }
+  main .sidenav1 {
+    background-color: #666666;
+    overflow-x: hidden;
+    margin: 0px;
+    opacity: .5; }
+  main .col-1 {
+    background-color: #666666; }
+  main .sidenav1 a, main .dropdown-btn {
+    padding: 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    outline: none; }
+    main .sidenav1 a .material-icons, main .dropdown-btn .material-icons {
+      margin: 0 auto;
+      text-align: center;
+      width: 50%; }
+  main .sidenav1 a:hover, main .dropdown-btn:hover {
+    color: #1B75BC;
+    opacity: 1; }
+  main .active {
+    background-color: green;
+    color: white; }
+  main .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px; }
+  main .fa-caret-down {
+    float: right;
+    padding-right: 8px; }
   main .quizName {
     clear: both;
     text-align: center;
@@ -202,17 +244,22 @@ main {
     font-size: 1.2rem;
     color: white;
     margin: 10px; }
+  main .questionStyles {
+    border: 1px solid #1B75BC;
+    height: 450px;
+    margin-bottom: 40px; }
   main .questionnumberStyle {
-    padding: 20px 0px;
+    padding: 20px 20px;
     font-size: 28px;
-    color: #1B75BC;
+    background-color: #1B75BC;
+    color: white;
     text-align: left;
     border-bottom: 1px solid #1B75BC;
     margin-bottom: 40px; }
   main .questionnumberStyle:after {
     opacity: 1; }
   main .questionStyle {
-    padding: 20px 0px;
+    padding: 20px 20px;
     font-size: 24px;
     color: #1B75BC;
     text-align: left; }

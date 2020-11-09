@@ -3,82 +3,82 @@
 {
  "quizQuestions" : [
     { 
-      "number": "Question 1",
-      "question": "Find the absolute value of the integer:", 
-      "questionDetail": "| -9 |",
-      "answers": {
+      "number1": "Question 1",
+      "question1": "Find the absolute value of the integer:", 
+      "questionDetail1": "| -9 |",
+      "answers1": {
       "a": "-9", 
       "b": "9", 
       "c": "0"
       },
-      "incorrectChoice1": "a",
-      "incorrectChoice2": "c", 
-      "correct": "b"  
+      "incorrectChoice1a": "a",
+      "incorrectChoice1b": "c", 
+      "correct1": "b"  
     },
     { 
-      "number": "Question 2",
-      "question": "Find the absolute value of the integer:", 
-      "questionDetail": "| 4 | ⦁ | -7 |",
-      "answers": {
+      "number2": "Question 2",
+      "question2": "Find the absolute value of the integer:", 
+      "questionDetail2": "| 4 | ⦁ | -7 |",
+      "answers2": {
       "a": "28", 
-       "b": "-28", 
+      "b": "-28", 
       "c": "-3"
         },
-        "incorrectChoice1": "b",
-        "incorrectChoice2": "c",
-      "correct": "a" 
+        "incorrectChoice2a": "b",
+        "incorrectChoice2b": "c",
+      "correct2": "a" 
     },
     { 
-      "number": "Question 3",
-      "question": "Find the absolute value of the integer:", 
-      "questionDetail": "| 4 ⦁ 2 (5 -3) +9 |",
-      "answers": {
+      "number3": "Question 3",
+      "question3": "Find the absolute value of the integer:", 
+      "questionDetail3": "| 4 ⦁ 2 (5 -3) +9 |",
+      "answers3": {
       "a": "76", 
       "b": "-37", 
       "c": "37"
       },
-      "incorrectChoice1": "a",
-      "incorrectChoice2": "c",
-      "correct": "b"
+      "incorrectChoice3a": "a",
+      "incorrectChoice3b": "c",
+      "correct3": "b"
     },
     { 
-      "number": "Question 4",
-        "question": "Add:", 
-        "questionDetail": "-17 + 4",
-        "answers": {
+      "number4": "Question 4",
+        "question4": "Add:", 
+        "questionDetail4": "-17 + 4",
+        "answers4": {
         "a": "-21", 
         "b": "-13", 
         "c": "21"
         },
-        "incorrectChoice1": "a",
-        "incorrectChoice2": "c",
-        "correct": "b"
+        "incorrectChoice4a": "a",
+        "incorrectChoice4b": "c",
+        "correct4": "b"
     },
     { 
-      "number": "Question 5",
-      "question": "Add:", 
-      "questionDetail": "6 + (-7)",
-      "answers": {
+      "number5": "Question 5",
+      "question5": "Add:", 
+      "questionDetail5": "6 + (-7)",
+      "answers5": {
       "a": "-1", 
       "b": "1", 
       "c": "-13"
       },
-      "incorrectChoice1": "b",
-      "incorrectChoice2": "c",
-      "correct": "a"
+      "incorrectChoice5a": "b",
+      "incorrectChoice5b": "c",
+      "correct5": "a"
     },
     { 
-      "number": "Question 6",
-        "question": "Add:", 
-        "questionDetail": "-2.79 + (-1.43)",
-        "answers": {
+      "number6": "Question 6",
+        "question6": "Add:", 
+        "questionDetail6": "-2.79 + (-1.43)",
+        "answers6": {
         "a": "-4.22", 
         "b": "-1.36", 
         "c": "4.22"
         },
-        "incorrectChoice1": "b",
-        "incorrectChoice2": "c",
-        "correct": "a"
+        "incorrectChoice6a": "b",
+        "incorrectChoice6b": "c",
+        "correct6": "a"
     }
     
     
